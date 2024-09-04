@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,200;1,14..32,200&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background-color: #24252a;
+    box-shadow: 0px 3px 10px #464646;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.nav-main {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+.cnt1 {
+    display: block; /*deixa o texto em baixo graças a Deus */
+    box-shadow: 0px 3px 10px #464646; /* padrão de box-shadow */
+    height: 30rem;  /* padrão de responsividade */
+    width: 30rem;
+    margin: 10px;
+    border-radius: 10px;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.cnimg1 a img {
+    border-radius: 10px;
+}
