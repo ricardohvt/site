@@ -13,7 +13,7 @@ html, body {
 
 body {
     display: flex;
-    flex-direction: column; /* Alinha o conteúdo do corpo em coluna */
+    flex-direction: column;
 }
 
 header {
@@ -47,30 +47,46 @@ a {
     color: black;
 }
 
-.search {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: rgb(138, 138, 138);
-}
-
 .searchmain {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 15px auto;
-    width: 200px;
-    height: auto;
-    size: 30px;
+    margin: 10px auto;
+}
+
+#inptsrch {
+    border: 1px rgba(0, 0, 0, 0);
+    border-radius: 6px;
 }
 
 #inptsrch::placeholder {
-    font-weight: 200;
+    font-style: italic;
+    text-decoration: underline black solid;
 }
 
-.searchicn {
-    height: 20px;
-    width: auto;
+.search {
+    height: 40px;
+    width: 210px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(138, 138, 138, 0.4);
+    transition: transform 200ms cubic-bezier(.79,.28,.92,.59), border 200ms cubic-bezier(.79,.28,.92,.59);
+    backdrop-filter: blur(15px);
+    box-shadow: 0px 3px 10px #464646;
+    border: 2px solid transparent;
+}
+
+.search:hover {
+    transform: scale(1.2);
+ 
+    border: 1px solid black;
+}
+
+.search-icon {
+    width: 20px;
 }
 
 .cnt1:hover {
