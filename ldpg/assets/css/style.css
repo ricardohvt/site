@@ -5,6 +5,12 @@
     font-family: 'Inter', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+    height: auto;
+    width: auto;
+}
+
 header {
     background-color: #24252a;
     box-shadow: 0px 3px 10px #464646;
@@ -24,7 +30,7 @@ header {
     display: block; /*deixa o texto em baixo graças a Deus */
     box-shadow: 0px 3px 10px #464646; /* padrão de box-shadow */
     height: 30rem;  /* padrão de responsividade */
-    width: 30rem;
+    width: 25rem;
     margin: 10px;
     border-radius: 10px;
     flex-direction: row;
@@ -33,4 +39,6 @@ header {
 
 .cnimg1 a img {
     border-radius: 10px;
+    height: auto;
+    width: 25rem;
 }
