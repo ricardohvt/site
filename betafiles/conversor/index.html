@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Medidas</title>
+</head>
+<body>
+    <h1>Conversor de Medidas</h1>
+    <input type="number" name="medida" id="inpt1" placeholder="Medida em gramas" />
+    <select id="medidas" class="selmed">
+        <option value="teaspoon">Colher de Chá</option>
+        <option value="dessertspoon">Colher de Sobremesa</option>
+        <option value="tablespoon">Colher de Sopa</option>
+        <option value="cup">Xícara de Chá</option>
+        <option value="coffee-cup">Xícara de Café</option>
+        <option value="milliliters">Mililitros</option>
+        <option value="liters">Litros</option>
+        <option value="grams">Gramas</option>
+        <option value="kilograms">Quilogramas</option>
+        <option value="pounds">Libras</option>
+    </select>
+    <button id="convert-btn" onclick="calc()">Converter</button>
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
