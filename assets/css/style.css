@@ -50,7 +50,7 @@ header {
 .content {
     display: flex;
     align-items: center;
-    gap: 10px; 
+    gap: 5px; 
 }
 
 .menu {
@@ -60,8 +60,7 @@ header {
     background-color: aliceblue;
     height: fit-content;
     border-radius: 5px;
-    margin-top: 10px;
-    margin-right: 10px;
+    margin-right: 6px;
 }
 
 .menu img {
@@ -92,28 +91,6 @@ header {
     color: #333;
 }
 
-.icons {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    margin-left: auto;
-}
-
-.avgn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-    width: fit-content;
-    background-color: aliceblue;
-    padding: 3px;
-    border-radius: 5px;
-}
-
-.vegan1 {
-    height: 25px;
-    width: auto;
-}
 
 .cnt1 {
     display: block;
