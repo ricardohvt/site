@@ -16,7 +16,6 @@ html, body {
 
 body {
     display: flex;
-    flex-direction: column;
     overflow-x: hidden;
 }
 
@@ -91,7 +90,6 @@ header {
     color: #333;
 }
 
-
 .cnt1 {
     display: block;
     box-shadow: 0px 3px 10px rgba(70, 70, 70, 0.8);
@@ -164,7 +162,6 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .cnimg1 a img {
@@ -173,6 +170,46 @@ a:hover {
     width: 100%;
 }
 
+.slider {
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slides {
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide-1 {
+    width: 25%;
+    position: relative;
+}
+
+.slide img {
+    width: 800px;
+}
+
+.navegacao-manual {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
 
 @media (max-width: 768px) {
     .cnt1 {
@@ -183,6 +220,9 @@ a:hover {
     .search {
         width: 200px;
         height: 35px;
+    }
+    body {
+        overflow-x: hidden;
     }
 }
 
@@ -206,15 +246,21 @@ a:hover {
         justify-content: center;
         display: flex;
     }
+    body {
+        overflow-x: hidden;
+    }
 }
 
 @media (max-width: 945px) {
     .nav-main {
-        padding: 1rem;
+        padding: 1rem
     }
 
     article {
         display: flex;
+    }
+    body {
+        overflow-x: hidden;
     }
 }
 
